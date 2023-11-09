@@ -96,12 +96,13 @@ Possibilities:
 3. Overlap with missing names (subset)
 4. Overlap with extra values (actual person names)
 5. Overlap with extra values (noise / not actual names)
-6. No overlap (empty result set)
-7. No overlap (extraneous data)
+6. Some overlap, with both missing names and extra values
+8. No overlap (empty result set)
+9. No overlap (extraneous data)
 
 Questions:
 
-- How to detect automatically whether a name is a person's name or not?
+- How to detect automatically whether a name is a person's name or not? Is this even necessary for the evaluation?
 - How to take persons' roles into account?
 - How to score "correct name with incorrect structure" (first and last name inverted, missing first name...)
 
